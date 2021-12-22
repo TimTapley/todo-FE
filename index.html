@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Node Todos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="normalize.css" type="text/css" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="index.js" defer></script>
+</head>
+    <body>
+        <section id="todos">
+            <div id="allTodos">
+              <h2>All Todos</h2>
+                <div id="allTodosTitle"></div>
+                <div class="form">
+                    <input id="addText" type="text" placeholder="Add Todo" name="title">
+                    <button id="addButton" class="addButton" type="submit" value="Submit">Add</button>
+                </div>
+
+            </div>
+            <div id="uncompletedTodos">
+                <h2 >Uncompleted Todos</h2>
+                <div id="uncompletedTodosTitle"></div>
+            </div>
+            <div id="completedTodos">
+                <h2 >Completed Todos</h2>
+                <div id="completedTodosTitle"></div>
+            </div>
+
+        </section>
+
+    </body>
+</html>
